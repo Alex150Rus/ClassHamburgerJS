@@ -41,23 +41,23 @@ class Hamburger {
     }
     if (cheese !== 'addCheese'  && cheese !== 'no') {
       console.log (`Вы неверно задали параметр добавки сыра: '${this.cheese}'. 
-      Доступные варианты: '${allParameters[3]}'`)
+      Доступные варианты: '${allParameters[3]}', '${allParameters[2]}'`)
     }
     if (salad !== 'addSalad'  && salad !== 'no') {
       console.log (`Вы неверно задали параметр добавки салата: '${this.salad}'. 
-      Доступные варианты: '${allParameters[4]}'`)
+      Доступные варианты: '${allParameters[4]}', '${allParameters[2]}'`)
     }
     if (frenchFries !== 'addFrenchFries'  && frenchFries !== 'no') {
       console.log (`Вы неверно задали параметр добавки картошки: '${this.frenchFries}'. 
-      Доступные варианты: '${allParameters[5]}'`)
+      Доступные варианты: '${allParameters[5]}', '${allParameters[2]}'`)
     }
     if (flavouring !== 'addFlavouring'  && flavouring !== 'no') {
       console.log (`Вы неверно задали параметр добавки приправы: '${this.flavouring}'. 
-      Доступные варианты: '${allParameters[6]}'`)
+      Доступные варианты: '${allParameters[6]}', '${allParameters[2]}'`)
     }
     if (mayoniese !== 'addMayonnaise'  && mayoniese !== 'no') {
       console.log (`Вы неверно задали параметр добавки майонеза: '${this.mayoniese}'. 
-      Доступные варианты: '${allParameters[7]}'`)
+      Доступные варианты: '${allParameters[7]}', '${allParameters[2]}'`)
     }
   }
 
